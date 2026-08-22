@@ -12,10 +12,9 @@ Clink ships familiar layouts in the app. This repository is where people can bro
 
 | Layout | What it is |
 |---|---|
-| Community Dvorak | A Dvorak letter arrangement, ready to download and edit. |
-| Community Colemak | A Colemak letter arrangement, ready to download and edit. |
+| Clink Flow | Clink's two-thumb-optimised letter arrangement. |
 
-The examples live in [`Layouts/`](Layouts). They are deliberately small and readable, so they are a good place to start when making your own.
+Clink Flow lives in [`Layouts/`](Layouts). It is deliberately small and readable, so it is a good place to start when making your own.
 
 ## Make your first layout
 
@@ -30,7 +29,7 @@ You do not need to write JSON if you do not want to.
 
 GitHub Actions does the boring release work: it reads each layout, makes `manifest.json`, calculates every file's SHA-256 hash and size, and creates the public release that Clink downloads.
 
-If you would rather start with a file, copy either example in `Layouts`, rename it, change the visible `name`, then change the letters in its three `rows`. Import the file into Clink to test it before you publish it.
+If you would rather start with a file, copy `Layouts/clink-flow.clinklayout`, rename it, change the visible `name`, then change the letters in its three `rows`. Import the file into Clink to test it before you publish it.
 
 ```json
 {

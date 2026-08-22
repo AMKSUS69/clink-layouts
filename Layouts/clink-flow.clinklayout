@@ -1,0 +1,9 @@
+{
+  "id": "custom-clink-flow",
+  "name": "Clink Flow",
+  "rows": [
+    ["w", "c", "s", "l", "b", "x", "g", "y", "j", "z"],
+    ["h", "t", "n", "d", "v", "i", "e", "a", "q"],
+    ["f", "r", "m", "k", "u", "o", "p"]
+  ]
+}
