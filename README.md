@@ -8,6 +8,10 @@
 
 Clink ships familiar layouts in the app. This repository is where people can browse, download, and keep extra layouts updated. Each layout is ordinary JSON data, not code, and stays available offline after it has been downloaded.
 
+## Official Clink repositories
+
+[Language packs](https://github.com/anti-ltd/clink-language-packs) · [Layouts](https://github.com/anti-ltd/clink-layouts) · [Profiles](https://github.com/anti-ltd/clink-profiles) · [Themes](https://github.com/anti-ltd/clink-themes) · [Panels](https://github.com/anti-ltd/clink-panels) · [Actions](https://github.com/anti-ltd/clink-actions)
+
 ## Included layouts
 
 | Layout | What it is |
