@@ -2,7 +2,7 @@
   <img src="icon-1024.png" width="96" alt="Clink app icon">
 </p>
 
-<h1 align="center">Clink Layouts</h1>
+<h1 align="center">Clink layouts</h1>
 
 <p align="center">Open keyboard layouts for Clink.</p>
 
@@ -61,6 +61,6 @@ Clink only accepts a public HTTPS GitHub release manifest. Every layout must com
 
 Clink downloads into a temporary folder, verifies the file, checks that it is a safe keyboard layout, and only then makes it available. A layout repository contains data only: it cannot run code in Clink. Adding a community repository is still a trust decision, so only add repositories run by people or communities you trust.
 
-## Publish your own repository
+## Publishing is automatic
 
 Fork this repository and keep `Layouts/` plus `.github/workflows/release.yml`. Add layouts, push to `main`, and GitHub publishes them automatically. You do not need to create tags, hashes, manifests, or releases by hand.
