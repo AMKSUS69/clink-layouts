@@ -60,6 +60,16 @@ your-name/my-clink-layouts
 
 Then open **Customize → Layout → Layout packs**. Your repository's layouts appear in a separate repository source. Download one to add it to **Yours**. Later releases update that installed layout rather than creating duplicates.
 
+## Make a layout with an AI agent
+
+[`PROMPT.md`](PROMPT.md) is a ready-to-use brief for an AI coding agent. Fork the repository, open the fork in your agent, and say:
+
+```text
+Read PROMPT.md and create a [describe the language, arrangement, or ergonomic goal] layout.
+```
+
+The prompt directs the agent to the real layout schema and asks it to preserve your intended key order. Review the rows and import the file into Clink before publishing.
+
 ## What Clink verifies
 
 Clink accepts only public HTTPS GitHub release manifests. Every layout must come from that repository's release, be a `.clinklayout` file smaller than 500 KB, and match the SHA-256 hash and byte count in the manifest.
